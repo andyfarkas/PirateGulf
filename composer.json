@@ -1,0 +1,19 @@
+{
+  "name": "andrejfarkas/pirategulf",
+  "authors": [
+    {
+      "name": "Andrej Farkas",
+      "email": "afarky@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PirateGulf\\Api\\": ["src/api"],
+      "PirateGulf\\": ["libs"]
+    }
+  },
+  "require": {
+    "silex/silex": "v1.2.2",
+    "guzzle/guzzle": "3.9.2"
+  }
+}
